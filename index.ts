@@ -1,6 +1,10 @@
 import dayjs from "dayjs";
 import Excel from "exceljs";
-import { applyParamsToCell, copyRange, getRangeDimension } from "./loopsier";
+import {
+  applyParamsToCell,
+  copyRange,
+  getRangeDimension,
+} from "./excel-lobster";
 import { BaseAddress } from "./polyfill";
 import fs from "fs";
 
